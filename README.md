@@ -1,5 +1,5 @@
 # Data Guardrail Kit
-
+[![CI](https://github.com/kyo-kyo-kyo/data-guardrail-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/kyo-kyo-kyo/data-guardrail-kit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Data Guardrail Kit is a small Python CLI for auditing CSV files before they enter analytics or machine learning workflows.
