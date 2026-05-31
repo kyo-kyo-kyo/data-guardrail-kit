@@ -1,0 +1,25 @@
+columns:
+  customer_id:
+    type: string
+    required: true
+    unique: true
+  signup_date:
+    type: date
+    required: true
+  monthly_spend:
+    type: number
+    required: false
+  is_active:
+    type: boolean
+    required: true
+
+id_columns:
+  - customer_id
+
+leakage_tokens:
+  - target
+  - label
+  - outcome
+  - result
+  - payout
+  - future
